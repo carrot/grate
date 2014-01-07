@@ -1,7 +1,7 @@
-Grate
+Grate [![npm](https://badge.fury.io/js/grate.png)](http://badge.fury.io/js/grate) [![tests](https://travis-ci.org/carrot/grate.png?branch=master)](https://travis-ci.org/carrot/grate)
 -----
 
-A modern grid system for stylus
+A modern grid system for stylus.
 
 ### Why Should You Care?
 
