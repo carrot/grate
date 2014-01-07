@@ -19,7 +19,11 @@
   ],
   "main": "index.js",
   "devDependencies": {
-    "stylus": "*"
+    "coffee-script": "*",
+    "mocha": "*",
+    "should": "*",
+    "stylus": "*",
+    "accord": "*"
   },
   "scripts": {
     "test": "mocha"
