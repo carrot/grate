@@ -1,29 +1,30 @@
 {
-    "name": "jeet",
-    "author": "Cory Simmons / MojoTech",
-    "main": "index.js",
-    "version": "4.1.1",
-    "description": "A light, semantic, responsive, CSS framework built from the best parts.",
-    "homepage": "http://jeetframework.com",
-    "keywords": [
-        "stylus",
-        "css",
-        "framework",
-        "grid"
-    ],
-    "categories": [
-        "CSS",
-        "Frameworks"
-    ],
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/mojotech/jeet.git"
-        }
-    ],
-    "github": "http://github.com/mojotech/jeet",
-    "devDependencies": {
-        "stylus": "0.40.x"
-    },
-    "preferGlobal": true
+  "name": "grate",
+  "version": "0.0.0",
+  "author": "Carrot Creative <dev@carrotcreative.com>",
+  "contributors": ["Cory Simmons/Mojotech"],
+  "description": "Modern grid framework for stylus",
+  "keywords": [
+    "stylus",
+    "css",
+    "framework",
+    "grid"
+  ],
+  "license": "MIT",
+  "repository": [
+    {
+      "type": "git",
+      "url": "https://github.com/carrot/grate.git"
+    }
+  ],
+  "main": "index.js",
+  "devDependencies": {
+    "stylus": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
 }

@@ -1,59 +1,25 @@
-![alt text](https://raw.github.com/corysimmons/jeetframework.com/master/img/jeet_logo_sm.png "Jeet CSS Framework")
+Grate
+-----
 
-####Installation
-`npm install -g stylus jeet`
+A modern grid system for stylus
 
-####Standalone Usage
-`stylus -u jeet -w -c`
+### Why Should You Care?
 
-####Node Usage Example
+You are on a mission. A mission to make responsive sites on a grid, using stylus. You have searched long and hard and found many things in your journey. First, you have found boatloads of grid systems for sass. But these are not useful. You also found the [semantic grid system](https://github.com/twigkit/semantic.gs/), which looked great, only to realize it's unmaintained. You searched github long and hard only to find a smattering of half-baked and mostly unmaintained solutions.
 
-```js
-var connect = require('connect')
-    , stylus = require('stylus')
-    , jeet = require('jeet');
+Good news, your search is over. Grate is a modified version of [jeet](jeetframework.com), which has had a long and tumultuous history, and sadly has not ended up in the hands of anyone who wants to maintain it. But it still contains a very solid grid framework, so we're picking up the slack, pulling out the grid, and making sure that it's useable.
 
-var server = connect();
+### Installation
 
-function compile(str, path) {
-    return stylus(str)
-        .set('filename', path)
-        .use(jeet());
-}
+`npm install grate`
 
-server.use(stylus.middleware({
-    src: __dirname
-    , compile: compile
-}));
-```
+### Usage
 
-In the example above, Jeet will be [implicitly included](https://github.com/mojotech/jeet/blob/master/jeet.js#L4) in your project's Stylus files. This means you don't have to declare `@import 'jeet'` anywhere and you'll still get Jeet functionality everywhere. If, for some reason, this doesn't suit your fancy, and you like `@import`ing stuff, you can explicitly disable this functionality by modifying the above line:
+Grate is a [stylus](http://learnboost.github.io/stylus/) plugin, and can be integrated in any way that stylus plugins normally are. If you are curious how to use stylus plugins, feel free to [check out this guide](https://gist.github.com/jenius/8263065).
 
-```js
-.use(jeet({ implicit: false }));
-```
+More docs coming soon...
 
-####Syntax Quick Reference
-[https://github.com/mojotech/jeet/blob/master/lib/index.styl](https://github.com/mojotech/jeet/blob/master/lib/index.styl)
+### License & Contributing
 
-####HTML Boilerplate
-[https://github.com/mojotech/jeet-html](https://github.com/mojotech/jeet-html)
-
-####Roots Integration
-[https://github.com/mojotech/jeet-roots](https://github.com/mojotech/jeet-roots)
-
-####How to Install/Use Jeet in Rails 4 Asset Pipeline
-- Install [NodeJS](http://nodejs.org) on your development machine
-- Append `gem 'stylus', :git => 'git@github.com:lucasmazza/ruby-stylus.git'` to your `Gemfile`
-- `bundle`
-- `npm install jeet`
-- Add `Stylus.use('jeet') if defined? (Stylus)` to `config/application.rb` inside your `class Application`
-- Create and edit `custom.css.styl` in `app/assets/stylesheets`
-- `rails s`
-- Enjoy. Heroku's [Cedar Stack](https://devcenter.heroku.com/articles/cedar#polyglot-platform) supports Rails and Node out of the box. Nice.
-
-####Help! npm is throwing permission errors!
-You're probably trying to `sudo` everything aren't you? That's bad juju! `sudo chown -R $USER /usr/local` will fix this. You might be interested in reinstalling all your global npm packages without sudo as well. Don't believe us? Here's a [blog post](http://howtonode.org/introduction-to-npm) on the subject by the maintainer of npm himself.
-
-####License
-Jeet is licensed under [GPL Version 3](http://opensource.org/licenses/GPL-3.0)
+- Details on the license [can be found here](LICENSE.md)
+- Details on running tests and contributing [can be found here](contributing.md)
