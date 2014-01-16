@@ -1,8 +1,8 @@
 -get_span(ratio = 1)
   return ratio * 100
   
--get_column(ratios = 1, g = gutter)
-  ratios = -reverse(ratios) unless parent_first is true
+-get_column(ratios = 1, g = grate-gutter)
+  ratios = -reverse(ratios) unless grate-parent-first is true
   w = 100
   for ratio in ratios
     g = g / w * 100
@@ -10,7 +10,7 @@
   return w g
   
 -get_layout_direction()
-  layout_direction == RTL ? result = right : result = left
+  grate-layout-direction == RTL ? result = right : result = left
   return result
   
 -replace_nth(list, index, value)
