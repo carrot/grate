@@ -1,5 +1,5 @@
 License (GPLv3)
--------------
+---------------
 
 Copyright (C) 2014  Cory Simmons, MojoTech, Carrot Creative
 
