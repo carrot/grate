@@ -1,6 +1,6 @@
 {
   "name": "grate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Carrot Creative <dev@carrotcreative.com>",
   "contributors": ["Cory Simmons/Mojotech"],
   "description": "Modern grid framework for stylus",

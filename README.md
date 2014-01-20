@@ -3,6 +3,8 @@ Grate [![npm](https://badge.fury.io/js/grate.png)](http://badge.fury.io/js/grate
 
 A modern grid system for stylus.
 
+> **Note:** This project is in development, and versioning is a little different. [Read this](http://markup.im/#q4_cRZ1Q) for more details.
+
 ### Why Should You Care?
 
 You are on a mission. A mission to make responsive sites on a grid, using stylus. You have searched long and hard and found many things in your journey. First, you have found boatloads of grid systems for sass. But these are not useful. You also found the [semantic grid system](https://github.com/twigkit/semantic.gs/), which looked great, only to realize it's unmaintained. You searched github long and hard only to find a smattering of half-baked and mostly unmaintained solutions. Well, here you can find a solid grid framework written for stylus and watched/maintained closely.
