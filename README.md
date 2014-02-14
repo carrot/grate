@@ -53,7 +53,7 @@ A helper for development that gives every element a light gray background. This 
 ###### `align(direction = both)`
 Horizontal and/or vertical alignment within a container. Accepts `both` (alias `b`), `horizontal` (alias `h`), or `vertical` (alias `v`).
 
-###### `stack(pad = 0, align = center)`
+###### `stack(pad = 0, align = false)`
 Stacks items vertically. Removes floats and sets width to 100%. Optionally add padding to the left and right or change text alignment (`center`/`c`, `left`/`l`, or `right`/`r`).
 
 ###### `unstack()`
