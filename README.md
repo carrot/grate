@@ -3,7 +3,7 @@ Grate [![npm](https://badge.fury.io/js/grate.png)](http://badge.fury.io/js/grate
 
 A modern grid system for stylus.
 
-> **Note:** This project is in development, and versioning is a little different. [Read this](http://markup.im/#q4_cRZ1Q) for more details.
+> **Note:** The original author of [Jeet](https://github.com/mojotech/jeet) has pulled out just the grid exactly like this project, and it is now more actively maintained. We would recommend checking jeet out.
 
 ### Why Should You Care?
 
